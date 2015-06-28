@@ -76,6 +76,3 @@ W = W ./ abs(W) .* 5;
 %plot weight vectors
 plot([0,W(1,1)],[0,W(1,2)],'y','Linewidth',3);
 plot([0,W(2,1)],[0,W(2,2)],'c','Linewidth',3);
-
-
-
